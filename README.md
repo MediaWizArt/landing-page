@@ -1,0 +1,1 @@
+Project based on The Odin Project's "Landing Page" exercise, looking to consolidate HTML and CSS knowledge into a prototype-page built from scratch.
