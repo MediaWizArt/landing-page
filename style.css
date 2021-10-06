@@ -100,16 +100,20 @@ ul {
   width: 50%;
 }
 
+.hero-button,
+.cta-button {
+  padding: 6px 32px;
+  border-radius: 8px;
+}
+
 .hero-button {
   color: #e5e7eb;
   background-color: #3882f6;
   font-weight: bold;
+  border: 0px;
 
   align-self: flex-start;
   
-  padding: 6px 32px;
-  border: 0px;
-  border-radius: 5px;
 }
 
 .info {
@@ -128,7 +132,7 @@ ul {
 .info-body {
   display: flex;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info-cards {
@@ -168,4 +172,27 @@ ul {
   color: #1f2937;
   font-weight: 600;
   align-self: flex-end;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+
+  margin: 100px 20%;
+  padding: 32px 52px;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.cta-content {
+  width: 100%;
+  flex-grow: 2;
+}
+
+.cta-button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  font-weight: bold;
 }
