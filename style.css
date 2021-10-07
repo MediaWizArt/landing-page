@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   margin: 0px;
 
   font-family: "Roboto", sans-serif;
@@ -102,14 +101,15 @@ ul {
 
 .hero-button,
 .cta-button {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  font-weight: bold;
+
   padding: 6px 32px;
   border-radius: 8px;
 }
 
 .hero-button {
-  color: #e5e7eb;
-  background-color: #3882f6;
-  font-weight: bold;
   border: 0px;
 
   align-self: flex-start;
@@ -178,21 +178,24 @@ ul {
   background-color: #3882f6;
 
   margin: 100px 20%;
-  padding: 32px 52px;
+  padding: 42px 52px;
+  border-radius: 10px;
 
   display: flex;
   justify-content: space-around;
   align-content: center;
+  align-items: center;
 }
 
 .cta-content {
-  width: 100%;
-  flex-grow: 2;
+  color: #e5e7eb;
+}
+
+.cta-main-text {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .cta-button {
-  color: #e5e7eb;
-  background-color: #3882f6;
   border: 2px solid #e5e7eb;
-  font-weight: bold;
 }
